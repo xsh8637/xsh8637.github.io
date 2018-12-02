@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      "Hello 2015"
+title:      "Hello 2018"
 subtitle:   " \"Hello World, Hello Blog\""
-date:       2015-01-29 12:00:00
-author:     "Hux"
+date:       2018-12-02 18:00:00
+author:     "Thomas"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
@@ -79,5 +79,3 @@ Theme 的 CSS 是基于 Bootstrap 定制的，看得不爽的地方直接在 Les
 如果你恰好逛到了这里，希望你也能喜欢这个博客主题。
 
 —— Hux 后记于 2015.10
-
-
