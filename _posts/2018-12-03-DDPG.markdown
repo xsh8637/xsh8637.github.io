@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "强化学习_DDPG"
+title:      "强化学习_DDPG【未完。。。】"
 subtitle:   "DDPG: CONTINUOUS CONTROL WITH DEEP REINFORCEMENT LEARNING"
 date:       2018-12-03 18:00:00
 author:     "Thomas"
