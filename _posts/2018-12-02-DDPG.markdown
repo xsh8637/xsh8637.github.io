@@ -22,4 +22,4 @@ tags:
 ## 二、算法原理
 &emsp;&emsp;在基本概念中有说过，强化学习是一个反复迭代的过程，每一次迭代要解决两个问题：给定一个策略求值函数，和根据值函数来更新策略。<br>
 &emsp;&emsp;DDPG中使用一个神经网络来近似值函数，此值函数网络又称critic网络，它的输入是 action与observation [s,a]，输出是Q(s,a)；另外使用一个神经网络来近似策略函数，此policy网络又称actor网络，它的输入是observation s，输出是action a.<br>
-![](/img/in-post/post-wmu/maoyan.jpg)
+![](/images/2018-12-03/post-wmu/maoyan.jpg)
