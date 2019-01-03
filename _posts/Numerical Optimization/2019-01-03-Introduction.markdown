@@ -1,8 +1,8 @@
 ---
-layout:     post/Numerical Optimization
-title:      "数值优化_Introduction"
+layout:     post
+title:      "数值优化_序"
 subtitle:   "Numerical Optimization: INTRODUCTION"
-date:       2018-12-03 18:00:00
+date:       2019-01-03 19:30:00
 author:     "Thomas"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
