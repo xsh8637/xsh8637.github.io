@@ -24,7 +24,7 @@ tags:
 &emsp;&emsp;Modeling需要确定优化目标、目标依赖的变量以及变量间的约束关系。<br>
 
 
-## 二、数学描述(mathematical formulation)
+## 二、数学描述
 &emsp;&emsp;数学描述，优化问题是满足变量约束的前提下最小化or最大化一个目标函数。<br>
 &emsp;&emsp;Notation:<br>
 &emsp;&emsp;&emsp;&emsp;- <i>x</i> 是变量or参数(向量);<br>
