@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Numerical Optimization: INTRODUCTION"
+title:      "Numerical Optimization: Introduction"
 subtitle:   "数值优化_序"
 date:       2019-01-03 19:30:00
 author:     "Thomas"
