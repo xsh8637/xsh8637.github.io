@@ -31,5 +31,9 @@ tags:
 &emsp;&emsp;&emsp;&emsp;- <i>f</i> 是关于x的目标函数;<br>
 &emsp;&emsp;&emsp;&emsp;- <i>c<sub>i</sub></i> 是x的限制条件。<br>
 ![](/images/NumericalOptimization_2019-01-03-Introduction/1.1.png)<br>
+&emsp;&emsp;考虑一个简单问题:<br>
+![](/images/NumericalOptimization_2019-01-03-Introduction/1.2.png)<br>
+&emsp;&emsp;上面问题的几何表示:<br>
+![](/images/NumericalOptimization_2019-01-03-Introduction/1.2p.png)<br>
 
 【我还没完。。。】
