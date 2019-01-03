@@ -27,12 +27,9 @@ tags:
 ## 二、数学描述(mathematical formulation)
 &emsp;&emsp;数学描述，优化问题是满足变量约束的前提下最小化or最大化一个目标函数。<br>
 &emsp;&emsp;Notation:<br>
-&emsp;&emsp;&emsp;&emsp;- x 是变量or参数(向量);<br>
-&emsp;&emsp;&emsp;&emsp;- y 是关于x的目标函数;<br>
-&emsp;&emsp;&emsp;&emsp;- c<sub>i</sub> 是x的限制条件。<br>
+&emsp;&emsp;&emsp;&emsp;- <i>x</i> 是变量or参数(向量);<br>
+&emsp;&emsp;&emsp;&emsp;- <i>f</i> 是关于x的目标函数;<br>
+&emsp;&emsp;&emsp;&emsp;- <i>c<sub>i</sub></i> 是x的限制条件。<br>
 ![](/images/NumericalOptimization_2019-01-03-Introduction/1.1.png)<br>
 
-
-&emsp;&emsp;DDPG中使用一个神经网络来近似值函数，此值函数网络又称critic网络，它的输入是 action与observation [s,a]，输出是Q(s,a)；另外使用一个神经网络来近似策略函数，此policy网络又称actor网络，它的输入是observation s，输出是action a.<br>
-![](/images/2018-12-03-DDPG/DDPG.jpeg)
 【我还没完。。。】
