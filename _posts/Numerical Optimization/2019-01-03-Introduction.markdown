@@ -35,5 +35,7 @@ tags:
 ![](/images/NumericalOptimization_2019-01-03-Introduction/1.2.png)<br>
 &emsp;&emsp;上面问题的几何表示:<br>
 ![](/images/NumericalOptimization_2019-01-03-Introduction/1.2p.png)<br>
+&emsp;&emsp;这个问题表示成1.1的形式:<br>
+![](/images/NumericalOptimization_2019-01-03-Introduction/1.1a.png)<br>
 
 【我还没完。。。】
