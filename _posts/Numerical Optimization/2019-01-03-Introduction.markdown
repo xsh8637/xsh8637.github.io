@@ -1,7 +1,7 @@
 ---
-layout:     post
-title:      "强化学习_DDPG"
-subtitle:   "DDPG: CONTINUOUS CONTROL WITH DEEP REINFORCEMENT LEARNING"
+layout:     post/Numerical Optimization
+title:      "数值优化_Introduction"
+subtitle:   "Numerical Optimization: INTRODUCTION"
 date:       2018-12-03 18:00:00
 author:     "Thomas"
 header-img: "img/post-bg-2015.jpg"
