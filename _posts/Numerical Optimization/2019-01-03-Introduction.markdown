@@ -29,7 +29,7 @@ tags:
 &emsp;&emsp;Notation:<br>
 &emsp;&emsp;&emsp;&emsp;- x 是变量or参数(向量);<br>
 &emsp;&emsp;&emsp;&emsp;- y 是关于x的目标函数;<br>
-&emsp;&emsp;&emsp;&emsp;- ci 是x的限制条件。<br>
+&emsp;&emsp;&emsp;&emsp;- c<sub>i</sub> 是x的限制条件。<br>
 ![](/images/NumericalOptimization_2019-01-03-Introduction/1.1.png)<br>
 
 
