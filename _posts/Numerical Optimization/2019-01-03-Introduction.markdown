@@ -37,12 +37,15 @@ tags:
 ![](/images/NumericalOptimization_2019-01-03-Introduction/1.2p.png)<br>
 &emsp;&emsp;这个问题表示成1.1的形式:<br>
 ![](/images/NumericalOptimization_2019-01-03-Introduction/1.1a.png)<br>
-&emsp;&emsp;#### 问题分类<br>
+
+#### &emsp;&emsp;问题分类<br>
 &emsp;&emsp;根据目标函数或者约束条件的不同，最优化问题可以有如下分类:<br>
 &emsp;&emsp;&emsp;&emsp;* 连续/离散化优化问题<br>
 &emsp;&emsp;&emsp;&emsp;* 约束/非约束优化问题<br>
 &emsp;&emsp;&emsp;&emsp;* 线性/非线性优化问题<br>
 &emsp;&emsp;&emsp;&emsp;* 全局/局部优化问题<br>
 &emsp;&emsp;&emsp;&emsp;* 随机/确定性优化问题<br>
+
+#### &emsp;&emsp;凸优化<br>
 
 【我还没完。。。】
