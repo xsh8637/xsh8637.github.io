@@ -38,7 +38,7 @@ tags:
 &emsp;&emsp;这个问题表示成1.1的形式:<br>
 ![](/images/NumericalOptimization_2019-01-03-Introduction/1.1a.png)<br>
 
-#### 问题分类
+## 三、问题分类
 &emsp;&emsp;根据目标函数或者约束条件的不同，最优化问题可以有如下分类:<br>
 &emsp;&emsp;&emsp;&emsp;* 连续/离散化优化问题<br>
 &emsp;&emsp;&emsp;&emsp;* 约束/非约束优化问题<br>
@@ -46,6 +46,10 @@ tags:
 &emsp;&emsp;&emsp;&emsp;* 全局/局部优化问题<br>
 &emsp;&emsp;&emsp;&emsp;* 随机/确定性优化问题<br>
 
-#### 凸优化
+## 四、凸优化
+&emsp;&emsp;凸优化是优化问题中最基本的一种。实际中有很多问题都具有凸优化问题的特性，这种特性让问题更容易解。<br>
+&emsp;&emsp;凸优化的几个概念:<br>
+&emsp;&emsp;&emsp;&emsp;1. 凸集: 如果集合S为凸集，当且仅当 x∈S, y∈S 并且α(x)+(1−α)(y) inS;α∈[0,1]<br>
+&emsp;&emsp;&emsp;&emsp;2. 凸函数：如果函数f(x)为凸函数，当且仅当S为凸集，x∈S, y∈S; αf(x)+(1−α)f(y)≥f(αx+(1−α)y); α∈[0,1]br>
 
 【我还没完。。。】
