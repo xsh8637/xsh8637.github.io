@@ -23,4 +23,5 @@ tags:
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.2.png)<br>
 &emsp;&emsp;&emsp;&emsp;其实我们要解决的是如下的问题:<br>
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.3.png)<br>
+&emsp;&emsp;&emsp;&emsp;局部最优解就是存在一个局部的x<sup>*</sup>是的它周围的x都有<i>f(x<sup>*</sup>) < f(x)</i>.<br>
 
