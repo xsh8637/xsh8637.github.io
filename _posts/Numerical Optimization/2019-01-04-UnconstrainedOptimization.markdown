@@ -16,4 +16,9 @@ tags:
 
 ## 一、数学表达
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.1.png)<br>
+&emsp;&emsp;举个例子:<br>
+&emsp;&emsp;&emsp;&emsp;假设有如下目标函数:<br>
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.1a.png)<br>
+&emsp;&emsp;&emsp;&emsp;φ(t<sub>j</sub>;x)如果要尽可能的接近观察值y<sub>j</sub>，定义它们之间的差:<br>
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.2.png)<br>
 
