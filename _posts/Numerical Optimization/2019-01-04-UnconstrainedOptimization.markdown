@@ -21,4 +21,6 @@ tags:
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.1a.png)<br>
 &emsp;&emsp;&emsp;&emsp;φ(t<sub>j</sub>;x)如果要尽可能的接近观察值y<sub>j</sub>，定义它们之间的差:<br>
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.2.png)<br>
+&emsp;&emsp;&emsp;&emsp;其实我们要解决的是如下的问题:<br>
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.3.png)<br>
 
