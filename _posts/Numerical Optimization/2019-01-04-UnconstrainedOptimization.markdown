@@ -37,4 +37,4 @@ tags:
 &emsp;&emsp;说明: 非平滑问题. 此问题不在讨论范围内，在此一般讨论二阶导数存在且连续的问题，对于非平滑甚至不连续的问题，一般会采用次梯度或者广义导数进行求解.<br>
 
 ## 三、优化算法
-### A. 两种策略: 线搜索(Line Search)和信任域(Trust Region)
+### &emsp;&emsp;A. 两种策略: 线搜索(Line Search)和信任域(Trust Region)
