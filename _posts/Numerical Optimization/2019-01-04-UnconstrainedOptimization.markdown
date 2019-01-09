@@ -29,7 +29,7 @@ tags:
 &emsp;&emsp;1. 泰勒展开式:<br>
 &emsp;&emsp;&emsp;&emsp;一阶泰勒展开: f(x)≈f(x0)+∇f(x0)T(x−x0)<br>
 &emsp;&emsp;&emsp;&emsp;二阶泰勒展开: f(x)≈f(x0)+∇f(x0)T(x−x0)+12(x−x0)T∇2f(x0)(x−x0)<br>
-&emsp;&emsp;2. 局部最小值的一阶必要条件，如果x<sup>*</sup>为局部最优解并且函数f一阶可导，则在x<sup>*</sup>的邻域内∇f(x∗)=0<br>
+&emsp;&emsp;2. 局部最小值的一阶必要条件，如果x<sup>*</sup>为局部最优解并且函数f一阶可导，则在x<sup>*</sup>的邻域内∇f(x<sup>*</sup>)=0<br>
 &emsp;&emsp;3. 局部最优解的二阶必要条件，如果x<sup>*</sup>为局部最优解并且一阶和二阶可导，则∇f(x<sup>*</sup>)=0 并且∇2f(x)正定<br>
 &emsp;&emsp;&emsp;&emsp;证明: 定理2,3可以用反证法(略).<br>
 &emsp;&emsp;4. 局部最优的二阶充分条件：如果函数f在x<sup>*</sup>处满足∇f(x<sup>*</sup>)=0并且∇2f(x)正定，则x<sup>*</sup>为局部最优解.<br>
@@ -38,3 +38,7 @@ tags:
 
 ## 三、优化算法
 ### &emsp;&emsp;A. 两种策略: 线搜索(Line Search)和信任域(Trust Region)
+&emsp;&emsp;1. Line Search: 假设在某点x<sub>k</sub>，寻找方向p<sub>k</sub>和步长α使得f(x<sub>k</sub>+αp<sub>k</sub>)最小:<br>
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.10.png)<br>
+&emsp;&emsp;2. Trust Region: 对于函数f在x<sub>k</sub>点的近似解m<sub>k</sub>，必须保证m<sub>k</sub>为一个较好的近似，所以必须在x<sub>k</sub>附近找到这样这样的m<sub>k</sub>.???(暂时还没看明白，待整理TODO)<br>
+### &emsp;&emsp;B. Line Search中的搜索方向选择
