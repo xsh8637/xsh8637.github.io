@@ -52,6 +52,6 @@ tags:
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.13a.png)<br>
 &emsp;&emsp;2. 牛顿方向(Newton Direction)<br>
 &emsp;&emsp;&emsp;&emsp;最速下降方向来自于一阶泰勒展开项，而牛顿方向就是来自于二阶泰勒展开项<br>
-![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.14.png)<br>
-![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.15.png)<br>
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.14.png)
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.15.png)
 &emsp;&emsp;3. 拟牛顿方向(Quasi-Newton Direction)<br>
