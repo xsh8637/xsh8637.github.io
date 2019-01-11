@@ -44,14 +44,14 @@ tags:
 
 ### &emsp;&emsp;B. Line Search中的搜索方向选择
 &emsp;&emsp;1. 最速下降的方向，负梯度方向是最明显的选择，−∇f<sub>k</sub>。<br>
-&emsp;&emsp;&emsp;&emsp;search方向<i>p</i>，步长α，因此进行二阶泰勒展开<br>
-&emsp;&emsp;![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.12a.png)
-&emsp;&emsp;&emsp;&emsp;由于∇<sup>2</sup>f<sub>k</sub>满足正定，因此等价于求解下面的问题<br>
+&emsp;&emsp;&emsp;&emsp;search方向<i>p</i>，步长α，因此进行二阶泰勒展开
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.12a.png)
+&emsp;&emsp;&emsp;&emsp;由于∇<sup>2</sup>f<sub>k</sub>满足正定，因此等价于求解下面的问题
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.13.png)
-&emsp;&emsp;&emsp;&emsp;至于为什么为负梯度方向，如下面推导<br>
+&emsp;&emsp;&emsp;&emsp;至于为什么为负梯度方向，如下面推导
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.13a.png)
 &emsp;&emsp;2. 牛顿方向(Newton Direction)<br>
-&emsp;&emsp;&emsp;&emsp;最速下降方向来自于一阶泰勒展开项，而牛顿方向就是来自于二阶泰勒展开项<br>
+&emsp;&emsp;&emsp;&emsp;最速下降方向来自于一阶泰勒展开项，而牛顿方向就是来自于二阶泰勒展开项
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.14.png)
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.15.png)
 &emsp;&emsp;3. 拟牛顿方向(Quasi-Newton Direction)<br>
