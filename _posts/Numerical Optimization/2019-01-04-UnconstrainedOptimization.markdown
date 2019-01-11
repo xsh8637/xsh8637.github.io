@@ -42,3 +42,10 @@ tags:
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.10.png)<br>
 &emsp;&emsp;2. Trust Region: 对于函数f在x<sub>k</sub>点的近似解m<sub>k</sub>，必须保证m<sub>k</sub>为一个较好的近似，所以必须在x<sub>k</sub>附近找到这样这样的m<sub>k</sub>.???(暂时还没看明白，待整理TODO)<br>
 ### &emsp;&emsp;B. Line Search中的搜索方向选择
+&emsp;&emsp;最速下降的方向，负梯度方向是最明显的选择，−∇f<sub>k</sub>。
+&emsp;&emsp;search方向<i>p</i>，步长α，因此进行二阶泰勒展开
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.12a.png)<br>
+&emsp;&emsp;由于∇<sup>2</sup>f<sub>k</sub>满足正定，因此等价于求解下面的问题
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.13.png)<br>
+&emsp;&emsp;至于为什么为负梯度方向，如下面推导
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.13a.png)<br>
