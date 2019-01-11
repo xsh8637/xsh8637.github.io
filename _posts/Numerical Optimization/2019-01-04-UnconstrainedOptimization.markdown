@@ -15,14 +15,14 @@ tags:
 
 
 ## 一、数学表达
-![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.1.png)<br>
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.1.png)
 &emsp;&emsp;举个例子:<br>
 &emsp;&emsp;&emsp;&emsp;假设有如下目标函数:<br>
-![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.1a.png)<br>
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.1a.png)
 &emsp;&emsp;&emsp;&emsp;φ(t<sub>j</sub>;x)如果要尽可能的接近观察值y<sub>j</sub>，定义它们之间的差:<br>
-![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.2.png)<br>
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.2.png)
 &emsp;&emsp;&emsp;&emsp;其实我们要解决的是如下的问题:<br>
-![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.3.png)<br>
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.3.png)
 &emsp;&emsp;&emsp;&emsp;局部最优解就是存在一个局部的x<sup>*</sup>使得它周围的x都有<i>f(x<sup>*</sup>) < f(x)</i>.<br>
 
 ## 二、局部最优解相关定理
@@ -39,17 +39,17 @@ tags:
 ## 三、优化算法
 ### &emsp;&emsp;A. 两种策略: 线搜索(Line Search)和信任域(Trust Region)
 &emsp;&emsp;1. Line Search: 假设在某点x<sub>k</sub>，寻找方向p<sub>k</sub>和步长α使得f(x<sub>k</sub>+αp<sub>k</sub>)最小:<br>
-![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.10.png)<br>
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.10.png)
 &emsp;&emsp;2. Trust Region: 对于函数f在x<sub>k</sub>点的近似解m<sub>k</sub>，必须保证m<sub>k</sub>为一个较好的近似，所以必须在x<sub>k</sub>附近找到这样这样的m<sub>k</sub>.???(暂时还没看明白，待整理TODO)<br>
 
 ### &emsp;&emsp;B. Line Search中的搜索方向选择
 &emsp;&emsp;1. 最速下降的方向，负梯度方向是最明显的选择，−∇f<sub>k</sub>。<br>
 &emsp;&emsp;&emsp;&emsp;search方向<i>p</i>，步长α，因此进行二阶泰勒展开<br>
-![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.12a.png)<br>
+&emsp;&emsp;![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.12a.png)
 &emsp;&emsp;&emsp;&emsp;由于∇<sup>2</sup>f<sub>k</sub>满足正定，因此等价于求解下面的问题<br>
-![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.13.png)<br>
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.13.png)
 &emsp;&emsp;&emsp;&emsp;至于为什么为负梯度方向，如下面推导<br>
-![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.13a.png)<br>
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.13a.png)
 &emsp;&emsp;2. 牛顿方向(Newton Direction)<br>
 &emsp;&emsp;&emsp;&emsp;最速下降方向来自于一阶泰勒展开项，而牛顿方向就是来自于二阶泰勒展开项<br>
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.14.png)
