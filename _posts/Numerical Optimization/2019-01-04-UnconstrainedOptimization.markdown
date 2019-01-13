@@ -58,7 +58,7 @@ tags:
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.15a.png)
 &emsp;&emsp;&emsp;&emsp;由上式推导可得:
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.15b.png)
-&emsp;&emsp;&emsp;&emsp;只要∇f<sub>k</sub>不为0，则牛顿方向则是下降方向。同理，如果为0，则牛顿方向就不存在(无法定义)，因此需要改变p<sub>k</sub>的定义。这里依赖于计算Hessian 矩阵∇f<sup>2</sup><sub>k</sub>，比较低效。
+&emsp;&emsp;&emsp;&emsp;只要∇f<sub>k</sub>不为0，牛顿方向则是下降方向。同理，如果为0，则牛顿方向就不存在(无法定义)，因此需要改变p<sub>k</sub>的定义(暂时不讨论)。牛顿方向依赖于计算Hessian 矩阵∇f<sup>2</sup><sub>k</sub>，比较低效。
 
 
 
