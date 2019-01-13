@@ -54,4 +54,6 @@ tags:
 &emsp;&emsp;&emsp;&emsp;最速下降方向来自于一阶泰勒展开项，而牛顿方向就是来自于二阶泰勒展开项
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.14.png)
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.15.png)
+&emsp;&emsp;&emsp;&emsp;上述的结论如何推导出来的?
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.15a.png)
 &emsp;&emsp;3. 拟牛顿方向(Quasi-Newton Direction)<br>
