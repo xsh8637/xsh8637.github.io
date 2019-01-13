@@ -64,3 +64,7 @@ tags:
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.15c.png)
 &emsp;&emsp;&emsp;&emsp;∇f(.)是连续的，最后的一个整数项大小为o(||p||)。令x=x<sub>k</sub> && p=x<sub>k-1</sub> - x<sub>k</sub>，则有
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.15d.png)
+&emsp;&emsp;&emsp;&emsp;x<sub>k</sub>和x<sub>k+1</sub>在解x<sub>*</sub>附近，并且∇<sub>2</sub>f是正定的，因此忽略最后的极小项，有
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.16.png)
+&emsp;&emsp;&emsp;&emsp;用割线方程B<sub>k+1</sub>s<sub>k</sub> = y<sub>k</sub>解释上式，其中s<sub>k+1</sub> = x<sub>k+1</sub> - x<sub>k</sub>, y<sub>k</sub> = ∇f<sub>k+1</sub> - ∇f<sub>k</sub>.
+
