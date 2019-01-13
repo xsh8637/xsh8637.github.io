@@ -67,7 +67,7 @@ tags:
 &emsp;&emsp;&emsp;&emsp;x<sub>k</sub>和x<sub>k+1</sub>在解x<sup>*</sup>附近，并且∇<sub>2</sub>f是正定的，因此忽略最后的极小项，有
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.16.png)
 &emsp;&emsp;&emsp;&emsp;用割线方程B<sub>k+1</sub>s<sub>k</sub> = y<sub>k</sub>解释上式，其中s<sub>k+1</sub> = x<sub>k+1</sub> - x<sub>k</sub>, y<sub>k</sub> = ∇f<sub>k+1</sub> - ∇f<sub>k</sub>.
-&emsp;&emsp;&emsp;&emsp;这时我们只要逐步求解B<sub>k+1</sub>，有两种方法:
+&emsp;&emsp;&emsp;&emsp;这时我们只要逐步求解B<sub>k+1</sub>，有两种方法:<br>
 &emsp;&emsp;&emsp;&emsp;a. symmetric-rank-one(SR1)
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.18.png)
 &emsp;&emsp;&emsp;&emsp;b. BFGS
