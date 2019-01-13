@@ -76,7 +76,7 @@ tags:
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.20.png)
 &emsp;&emsp;&emsp;&emsp;令H<sub>k</sub>=B<sub>k</sub><sup>-1</sup>，2.18和2.19变形得到下式:
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.21.png)
-&emsp;&emsp;&emsp;&emsp;求解p<sub>k</sub>，可以有p<sub>k</sub>=-H<sub>k</sub>∇f<sub>k</sub>.
+&emsp;&emsp;&emsp;&emsp;求解p<sub>k</sub>，可以有p<sub>k</sub>=-H<sub>k</sub>∇f<sub>k</sub>.<br>
 &emsp;&emsp;4. 非线性共轭梯度方向(nonlinear conjugate gradient methods)<br>
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.21a.png)
 &emsp;&emsp;&emsp;&emsp;共轭梯度方法是用来求解线性方程Ax=b的一种方法，等价于求解凸二次方程
