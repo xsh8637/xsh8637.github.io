@@ -81,5 +81,7 @@ tags:
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.21a.png)
 &emsp;&emsp;&emsp;&emsp;共轭梯度方法是用来求解线性方程Ax=b的一种方法，等价于求解凸二次方程
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.21b.png)
+&emsp;&emsp;&emsp;&emsp;因此该方法比最速下降法还要高效；最速下降法和非线性共轭梯度法虽然收敛效率没有牛顿和拟牛顿法那么高，但是它们不需要存储矩阵。<br>
+
 
 ### &emsp;&emsp;C. 信任域(Trust Region)模型
