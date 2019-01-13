@@ -56,4 +56,9 @@ tags:
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.15.png)
 &emsp;&emsp;&emsp;&emsp;上述的结论如何推导出来的?
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.15a.png)
+&emsp;&emsp;&emsp;&emsp;由上式推导可得:
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.15b.png)
+
+
+
 &emsp;&emsp;3. 拟牛顿方向(Quasi-Newton Direction)<br>
