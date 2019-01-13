@@ -81,3 +81,5 @@ tags:
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.21a.png)
 &emsp;&emsp;&emsp;&emsp;共轭梯度方法是用来求解线性方程Ax=b的一种方法，等价于求解凸二次方程
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.21b.png)
+
+### &emsp;&emsp;C. 信任域(Trust Region)模型
