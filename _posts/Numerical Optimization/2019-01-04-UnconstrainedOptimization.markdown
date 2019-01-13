@@ -67,4 +67,17 @@ tags:
 &emsp;&emsp;&emsp;&emsp;x<sub>k</sub>和x<sub>k+1</sub>在解x<sup>*</sup>附近，并且∇<sub>2</sub>f是正定的，因此忽略最后的极小项，有
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.16.png)
 &emsp;&emsp;&emsp;&emsp;用割线方程B<sub>k+1</sub>s<sub>k</sub> = y<sub>k</sub>解释上式，其中s<sub>k+1</sub> = x<sub>k+1</sub> - x<sub>k</sub>, y<sub>k</sub> = ∇f<sub>k+1</sub> - ∇f<sub>k</sub>.
-
+&emsp;&emsp;&emsp;&emsp;这时我们只要逐步求解B<sub>k+1</sub>，有两种方法:
+&emsp;&emsp;&emsp;&emsp;a. symmetric-rank-one(SR1)
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.18.png)
+&emsp;&emsp;&emsp;&emsp;b. BFGS
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.19.png)
+&emsp;&emsp;&emsp;&emsp;根据割线方程，有:
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.20.png)
+&emsp;&emsp;&emsp;&emsp;令H<sub>k</sub>=B<sub>k</sub><sup>-1</sup>，2.18和2.19变形得到下式:
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.21.png)
+&emsp;&emsp;&emsp;&emsp;求解p<sub>k</sub>，可以有p<sub>k</sub>=-H<sub>k</sub>∇f<sub>k</sub>.
+&emsp;&emsp;4. 非线性共轭梯度方向(nonlinear conjugate gradient methods)<br>
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.21a.png)
+&emsp;&emsp;&emsp;&emsp;共轭梯度方法是用来求解线性方程Ax=b的一种方法，等价于求解凸二次方程
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.21b.png)
