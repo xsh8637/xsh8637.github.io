@@ -91,3 +91,11 @@ tags:
 
 
 ### &emsp;&emsp;C. 信任域(Trust Region)模型
+&emsp;&emsp;如果B<sub>k</sub> = 0，则信赖域问题变成如下:
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.21c.png)
+&emsp;&emsp;求解p<sub>k</sub>，变成下式:
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.21d.png)
+
+### &emsp;&emsp;D. Scaling问题
+&emsp;&emsp;1. 一个算法的表现好坏，其中一个很重要的问题就是scaling.一个poorly scaled问题是指函数f(x)在某个方向上的变化比其他方向的变化，带来更大的函数值改动.(例子: f(x) = 10<sup>9</sup>x<sub>1</sub> + x<sub>2</sub>.)<br>
+&emsp;&emsp;2. 最速下降法就是poorly scaled算法, Newton法也会受到影响.因此scale invariance在算法中是很重要的，影响算法的收敛性。<br>
