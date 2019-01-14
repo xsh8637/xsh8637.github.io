@@ -38,9 +38,15 @@ tags:
 
 ## 三、优化算法
 ### &emsp;&emsp;A. 两种策略: 线搜索(Line Search)和信任域(Trust Region)
-&emsp;&emsp;1. Line Search: 假设在某点x<sub>k</sub>，寻找方向p<sub>k</sub>和步长α使得f(x<sub>k</sub>+αp<sub>k</sub>)最小:<br>
+&emsp;&emsp;1. Line Search: 假设在某点x<sub>k</sub>，寻找方向p<sub>k</sub>和步长α使得f(x<sub>k</sub>+αp<sub>k</sub>)最小:<
 ![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.10.png)
-&emsp;&emsp;2. Trust Region: 对于函数f在x<sub>k</sub>点的近似解m<sub>k</sub>，必须保证m<sub>k</sub>为一个较好的近似，所以必须在x<sub>k</sub>附近找到这样这样的m<sub>k</sub>.???(暂时还没看明白，待整理TODO)<br>
+&emsp;&emsp;2. Trust Region: 对于函数f在x<sub>k</sub>点的近似解m<sub>k</sub>，必须保证m<sub>k</sub>为一个较好的近似，所以必须在x<sub>k</sub>附近找到这样这样的m<sub>k</sub>(即最优解的近似解，必须在最优解附近才是好的近似解).所以要找到一个候选step p，可以通过近似解决下面的问题:
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.11.png)
+&emsp;&emsp;&emsp;&emsp;信赖域如果过大，我们则缩小信赖域，信赖域定义满足||p||<sub>2</sub>≤Δ.2.11的式子写成二次方程的形式如下:
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.12.png)
+&emsp;&emsp;&emsp;&emsp;下图是信赖域的示意图(线搜索和信赖域的区别主要是在选择方向和距离的顺序上，先搜索先选择方向，信赖域先选择距离):
+![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/2.12b.png)
+
 
 ### &emsp;&emsp;B. Line Search中的搜索方向选择
 &emsp;&emsp;1. 最速下降的方向，负梯度方向是最明显的选择，−∇f<sub>k</sub>。<br>
