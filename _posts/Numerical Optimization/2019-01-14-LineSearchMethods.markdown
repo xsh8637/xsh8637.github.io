@@ -16,4 +16,4 @@ tags:
 
 ## 一、定义
 &emsp;&emsp;线搜索方法迭代的过程是先选择一个迭代方向<i>p<sub>k</sub></i>，然后决定在这个方向上移动的距离α<sub>k</sub>. 如下式
-![](/images/NumericalOptimization_2019-01-04-UnconstrainedOptimization/3.1.png)
+![](/images/NumericalOptimization_2019-01-14-LineSearchMethods/3.1.png)
